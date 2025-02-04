@@ -1,0 +1,5 @@
+{
+    "schema":"{\"type\":\"record\",\"name\":\"Product\",\"namespace\":\"com.it.sandbox.pulsar\",\"fields\":[{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"]},{\"name\":\"price\",\"type\":[\"null\",\"double\"]},{\"name\":\"options\",\"type\":[\"null\",{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Options\",\"fields\":[{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"]}]},\"java-class\":\"java.util.List\"}]}]}",
+    "type":"AVRO",
+    "properties":{"__alwaysAllowNull":"true","__jsr310ConversionEnabled":"true"}
+}
